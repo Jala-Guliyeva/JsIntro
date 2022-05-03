@@ -1,0 +1,109 @@
+#top-footer {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+  li{
+      padding-bottom: 1rem;
+  }
+  
+
+}
+.footer-description {
+  .footer-logo {
+    i {
+      font-size: 3rem !important;
+      color: $color-button;
+    }
+    span {
+      font-size: 3rem;
+      font-weight: 700;
+      color: $color-common-text;
+    }
+  }
+  p {
+    font-size: 1.4rem;
+  }
+  .socials {
+    padding: 0;
+    li {
+      padding-right: 2rem;
+      
+      i {
+        font-size: 2rem;
+        color:#4053F0;
+        opacity: 0.7;
+        transition: all 0.2s linear;
+        &:hover {
+            color: darken(#4053F0,20%);
+          opacity: 1;
+        }
+      }
+    }
+  }
+}
+.useful {
+  h5 {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: $color-common-text;
+    padding-bottom: 2rem;
+  }
+}
+.useful-links {
+  padding-left: 0;
+
+  a {
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: $color-common-text;
+  }
+}
+
+.services {
+  h5 {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: $color-common-text;
+    padding-bottom: 2rem;
+  }
+}
+.our-services {
+  padding-left: 0;
+
+  a {
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: $color-common-text;
+  }
+}
+.Contact {
+  h5{
+      font-size: 1.6rem;
+      font-weight: 700;
+      color: $color-common-text;
+      padding-bottom: 2rem;    
+  }
+  p{
+      font-size: 1.4rem;
+  }
+
+  
+}
+#sub-footer{
+      padding-top: 0rem;
+      padding-bottom: 3.5rem;
+      background-color:#F6F9FF;
+      .credits{
+        padding-top: 10px;
+      text-align: center;
+      font-size: 13px;
+      color: #012970;
+      }
+}
+.footer-bottom{
+    padding-bottom: 0;
+    padding-top: 3.5rem;
+    span{
+        font-size: 1.4rem;
+    }
+  }
+  
